@@ -1,19 +1,25 @@
 import './App.css';
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import Navbar from "./components/Navbar"
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import NavBar from "./components/Navbar"
+
+import Hardik from "./pages/Hardik"
+import Abhishek from "./pages/Abhishek"
+import Shelja from "./pages/Shelja"
+import Bhanu from "./pages/Bhanu"
+
 import Dogs from "./pages/Dogs"
-import Cats from "./pages/Cats"
 import Sheeps from "./pages/Sheeps"
-import Goats from "./pages/Goats"
 function App() {
   return (
     <Router>
-      <Navbar />
+      <NavBar />
       <Switch>
         <Route path='/' exact component={Dogs} />
-        <Route path='/cats' component={Cats} />
+        <Route path='/hardik' component={Hardik} />
+        <Route path='/abhishek' component={Abhishek} />
+        <Route path='/shelja' component={Shelja} />
+        <Route path='/bhanu' component={Bhanu} />
         <Route path='/sheeps' component={Sheeps} />
-        <Route path='/goats' component={Goats} />
       </Switch>
     </Router>
   );

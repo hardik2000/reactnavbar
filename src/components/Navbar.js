@@ -1,34 +1,33 @@
 import React from 'react';
-import "./Navbar.css"
-import {  Link } from "react-router-dom";
-const Navbar= () =>{
-  return (
-		<header class="header">
-		<div class="left">
-			<a href="#">Animal Navbar</a>
-		</div>
-  <div class="mid">
-		<ul class="navbar">
-			 <li>
-      <Link to="/">Dogs</Link>
-    </li>
-    <li>
-      <Link to="/cats">Cats</Link>
-    </li>
-    <li>
-      <Link to="/sheeps">Sheep</Link>
-    </li>
-    <li>
-      <Link to="/goats">Goats</Link>
-    </li>
-		</ul>
-   
-  </div>
-	<div class="right">
-          <a href="#">Welcome</a>
-        </div>
+import 'bootstrap/dist/css/bootstrap.min.css';
+import {Nav,Navbar,NavDropdown,Container} from 'react-bootstrap';
 
-    </header>
+const NavBar= () =>{
+  return (
+    <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+      <Container>
+        <Navbar.Brand href="/">EPU</Navbar.Brand>
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse id="responsive-navbar-nav">
+          <Nav className="me-auto">
+            <Nav.Link href="/sheeps">Excel</Nav.Link>
+            <Nav.Link href="#">Graphs</Nav.Link>
+            <NavDropdown title="About Us" id="collasible-nav-dropdown">
+              <NavDropdown.Item href="/bhanu">Bhanu Pratap</NavDropdown.Item>
+              <NavDropdown.Item href="/shelja">Shelja Bhatia</NavDropdown.Item>
+              <NavDropdown.Item href="/abhishek">Abhishek Kumar Yadav</NavDropdown.Item>
+              <NavDropdown.Divider />
+              <NavDropdown.Item href="/hardik">Hardik</NavDropdown.Item>
+            </NavDropdown>
+          </Nav>
+          <Nav>
+            <Nav.Link href="/sheeps">Research Paper</Nav.Link>
+            <Nav.Link href="#">Contact Us</Nav.Link>
+            
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
   );
 }
-export default Navbar;
+export default NavBar;
