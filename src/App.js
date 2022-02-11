@@ -13,7 +13,7 @@ function App() {
   return (
     <Router>
       <NavBar />
-      <Switch>
+      <Switch basename="https://hardik2000.github.io/reactnavbar/">
         <Route path='/' exact component={Dogs} />
         <Route path='/hardik' component={Hardik} />
         <Route path='/abhishek' component={Abhishek} />
