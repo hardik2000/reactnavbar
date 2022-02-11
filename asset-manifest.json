@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/reactnavbar/static/css/main.694256d5.chunk.css",
+    "main.js": "/reactnavbar/static/js/main.5a7dac28.chunk.js",
+    "main.js.map": "/reactnavbar/static/js/main.5a7dac28.chunk.js.map",
+    "runtime-main.js": "/reactnavbar/static/js/runtime-main.98d9652b.js",
+    "runtime-main.js.map": "/reactnavbar/static/js/runtime-main.98d9652b.js.map",
+    "static/css/2.0a9ec390.chunk.css": "/reactnavbar/static/css/2.0a9ec390.chunk.css",
+    "static/js/2.5f76e911.chunk.js": "/reactnavbar/static/js/2.5f76e911.chunk.js",
+    "static/js/2.5f76e911.chunk.js.map": "/reactnavbar/static/js/2.5f76e911.chunk.js.map",
+    "static/js/3.14774a63.chunk.js": "/reactnavbar/static/js/3.14774a63.chunk.js",
+    "static/js/3.14774a63.chunk.js.map": "/reactnavbar/static/js/3.14774a63.chunk.js.map",
+    "index.html": "/reactnavbar/index.html",
+    "static/css/2.0a9ec390.chunk.css.map": "/reactnavbar/static/css/2.0a9ec390.chunk.css.map",
+    "static/css/main.694256d5.chunk.css.map": "/reactnavbar/static/css/main.694256d5.chunk.css.map",
+    "static/js/2.5f76e911.chunk.js.LICENSE.txt": "/reactnavbar/static/js/2.5f76e911.chunk.js.LICENSE.txt",
+    "static/media/abhishek.d56e58b9.jpg": "/reactnavbar/static/media/abhishek.d56e58b9.jpg",
+    "static/media/hardik.1aa7eb8f.jpg": "/reactnavbar/static/media/hardik.1aa7eb8f.jpg",
+    "static/media/shelja.da929b8e.jpg": "/reactnavbar/static/media/shelja.da929b8e.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.98d9652b.js",
+    "static/css/2.0a9ec390.chunk.css",
+    "static/js/2.5f76e911.chunk.js",
+    "static/css/main.694256d5.chunk.css",
+    "static/js/main.5a7dac28.chunk.js"
+  ]
+}
