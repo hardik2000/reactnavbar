@@ -10,7 +10,7 @@ import Shelja from "./pages/Shelja"
 import Bhanu from "./pages/Bhanu"
 
 import Dogs from "./pages/Dogs"
-import Sheeps from "./pages/Sheeps"
+import Excel from "./pages/Excel"
 
 const history = createBrowserHistory();
 
@@ -24,7 +24,7 @@ function App() {
         <Route path='/abhishek' component={Abhishek} />
         <Route path='/shelja' component={Shelja} />
         <Route path='/bhanu' component={Bhanu} />
-        <Route path='/sheeps' component={Sheeps} />
+        <Route path='/excel' component={Excel} />
       </Switch>
     </Router>
   );
