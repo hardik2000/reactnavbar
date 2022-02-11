@@ -11,15 +11,15 @@ import Dogs from "./pages/Dogs"
 import Sheeps from "./pages/Sheeps"
 function App() {
   return (
-    <Router>
+    <Router basename="https://hardik2000.github.io/reactnavbar/">
       <NavBar />
-      <Switch basename="https://hardik2000.github.io/reactnavbar/">
-        <Route path='/' exact component={Dogs} />
-        <Route path='/hardik' component={Hardik} />
-        <Route path='/abhishek' component={Abhishek} />
-        <Route path='/shelja' component={Shelja} />
-        <Route path='/bhanu' component={Bhanu} />
-        <Route path='/sheeps' component={Sheeps} />
+      <Switch>
+        <Route path='/reactnavbar/' exact component={Dogs} />
+        <Route path='/reactnavbar/hardik' component={Hardik} />
+        <Route path='/reactnavbar/abhishek' component={Abhishek} />
+        <Route path='/reactnavbar/shelja' component={Shelja} />
+        <Route path='/reactnavbar/bhanu' component={Bhanu} />
+        <Route path='/reactnavbar/sheeps' component={Sheeps} />
       </Switch>
     </Router>
   );
