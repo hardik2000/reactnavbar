@@ -1,5 +1,7 @@
 import './App.css';
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import {BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import {createBrowserHistory} from 'history';
+
 import NavBar from "./components/Navbar"
 
 import Hardik from "./pages/Hardik"
@@ -9,17 +11,20 @@ import Bhanu from "./pages/Bhanu"
 
 import Dogs from "./pages/Dogs"
 import Sheeps from "./pages/Sheeps"
+
+const history = createBrowserHistory();
+
 function App() {
   return (
-    <Router basename="https://hardik2000.github.io/reactnavbar/">
+    <Router history={history} basename="/reactnavbar">
       <NavBar />
       <Switch>
-        <Route path='/reactnavbar/' exact component={Dogs} />
-        <Route path='/reactnavbar/hardik' component={Hardik} />
-        <Route path='/reactnavbar/abhishek' component={Abhishek} />
-        <Route path='/reactnavbar/shelja' component={Shelja} />
-        <Route path='/reactnavbar/bhanu' component={Bhanu} />
-        <Route path='/reactnavbar/sheeps' component={Sheeps} />
+        <Route path='/' exact component={Dogs} />
+        <Route path='/hardik' component={Hardik} />
+        <Route path='/abhishek' component={Abhishek} />
+        <Route path='/shelja' component={Shelja} />
+        <Route path='/bhanu' component={Bhanu} />
+        <Route path='/sheeps' component={Sheeps} />
       </Switch>
     </Router>
   );
