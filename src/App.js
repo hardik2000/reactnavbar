@@ -9,9 +9,9 @@ import Abhishek from "./pages/Abhishek"
 import Shelja from "./pages/Shelja"
 import Bhanu from "./pages/Bhanu"
 
-import Dogs from "./pages/Dogs"
+import Home from "./pages/Home"
 import Excel from "./pages/Excel"
-
+import ContactForm from "./pages/Contact"
 const history = createBrowserHistory();
 
 function App() {
@@ -19,12 +19,13 @@ function App() {
     <Router history={history} basename="/reactnavbar">
       <NavBar />
       <Switch>
-        <Route path='/' exact component={Dogs} />
+        <Route path='/' exact component={Home} />
         <Route path='/hardik' component={Hardik} />
         <Route path='/abhishek' component={Abhishek} />
         <Route path='/shelja' component={Shelja} />
         <Route path='/bhanu' component={Bhanu} />
         <Route path='/excel' component={Excel} />
+        <Route path='/contact' component={ContactForm} />
       </Switch>
     </Router>
   );
