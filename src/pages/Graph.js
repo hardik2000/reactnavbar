@@ -8,11 +8,11 @@ import ReactFusioncharts from "react-fusioncharts";
 // import scores from '../Data/Scores.json'
 charts(FusionCharts);
 
-const dates = require('../Data/Dates.json')
-const scores = require('../Data/Scores.json')
+const dates = require('../Data/Dates_textblob.json')
+const scores = require('../Data/Scores_textblob.json')
 
-const dates_ = require('../Data/Dates_.json')
-const scores_ = require('../Data/Scores_.json')
+const dates_ = require('../Data/Dates__textblob.json')
+const scores_ = require('../Data/Scores__textblob.json')
 
 const dataSource1 = {
     chart: {
