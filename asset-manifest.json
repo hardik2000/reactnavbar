@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/reactnavbar/static/css/main.694256d5.chunk.css",
-    "main.js": "/reactnavbar/static/js/main.bcc33784.chunk.js",
-    "main.js.map": "/reactnavbar/static/js/main.bcc33784.chunk.js.map",
+    "main.js": "/reactnavbar/static/js/main.4f7086e1.chunk.js",
+    "main.js.map": "/reactnavbar/static/js/main.4f7086e1.chunk.js.map",
     "runtime-main.js": "/reactnavbar/static/js/runtime-main.8ec9c4d2.js",
     "runtime-main.js.map": "/reactnavbar/static/js/runtime-main.8ec9c4d2.js.map",
     "static/css/2.9b82fa77.chunk.css": "/reactnavbar/static/css/2.9b82fa77.chunk.css",
@@ -24,6 +24,6 @@
     "static/css/2.9b82fa77.chunk.css",
     "static/js/2.fc02df52.chunk.js",
     "static/css/main.694256d5.chunk.css",
-    "static/js/main.bcc33784.chunk.js"
+    "static/js/main.4f7086e1.chunk.js"
   ]
 }
