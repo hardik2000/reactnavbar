@@ -20,7 +20,7 @@ const dataSource1 = {
       subcaption: "(As per computation)",
       xAxisname: "Date",
       YAxisName: "Polarity",
-      showvalues: "0",
+      showvalues: "1",
       numvisibleplot: "50",
       plottooltext:
         "<b>$dataValue</b> polarity score on $label",
