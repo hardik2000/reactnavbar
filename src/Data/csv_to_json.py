@@ -23,7 +23,7 @@ def csv_to_json(csvFilePath, datesFile, scoresFile):
     with open(scoresFile, 'w', encoding='utf-8') as jsonf: 
         jsonString = json.dumps(scores, indent=4)
         jsonf.write(jsonString)
-csvFilePath = r'score.csv'
-datesFile = r'Dates_.json'
-scoresFile = r'Scores_.json'
+csvFilePath = r'score_vader.csv'
+datesFile = r'Dates_vader.json'
+scoresFile = r'Scores_vader.json'
 csv_to_json(csvFilePath, datesFile, scoresFile)

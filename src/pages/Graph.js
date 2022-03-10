@@ -8,24 +8,30 @@ import ReactFusioncharts from "react-fusioncharts";
 // import scores from '../Data/Scores.json'
 charts(FusionCharts);
 
-const dates = require('../Data/Dates_textblob.json')
-const scores = require('../Data/Scores_textblob.json')
+const dates = require('../Data/Dates_textblob_vader.json')
+const scores = require('../Data/Scores_textblob_vader.json')
 
 const dates_ = require('../Data/Dates__textblob.json')
 const scores_ = require('../Data/Scores__textblob.json')
 
+const dates_vader = require('../Data/Dates_vader.json')
+const scores_vader = require('../Data/Scores_vader.json')
+
 const dataSource1 = {
     chart: {
-      caption: "Overall polarity for all newspaper using TextBlob library function",
+      caption: "Overall polarity for all newspaper using TextBlob-Vader library function",
       subcaption: "(As per computation)",
       xAxisname: "Date",
       YAxisName: "Polarity",
-      showvalues: "1",
-      numvisibleplot: "50",
+      showhovereffect: "1",
+      showvalues: "0",
+      numbersuffix: "%",
+      drawcrossline: "1",
       plottooltext:
         "<b>$dataValue</b> polarity score on $label",
       theme: "fusion",
-      scrollToEnd: "1"
+      numvisibleplot: "75",
+      scrollToEnd: "1",
     },
     categories: dates ,
     dataset: scores
@@ -33,12 +39,12 @@ const dataSource1 = {
 
 const dataSource2 = {
     chart: {
-    caption: "Overall polarity for all newspaper using TextBlob library function( x by 1000)",
+    caption: "Overall polarity for all newspaper using TextBlob library function",
     subcaption: "(As per computation)",
     xAxisname: "Date",
     YAxisName: "Polarity",
-    showvalues: "0",
-    numvisibleplot: "50",
+    showvalues: "1",
+    numvisibleplot: "75",
     plottooltext:
         "<b>$dataValue</b> polarity score on $label",
     theme: "candy",
@@ -48,6 +54,22 @@ const dataSource2 = {
     dataset: scores_
 }; 
 
+const dataSource3 = {
+    chart: {
+    caption: "Overall polarity for all newspaper using Vader library function",
+    subcaption: "(As per computation)",
+    xAxisname: "Date",
+    YAxisName: "Polarity",
+    showvalues: "1",
+    numvisibleplot: "75",
+    plottooltext:
+        "<b>$dataValue</b> polarity score on $label",
+    theme: "candy",
+    scrollToEnd: "1"
+    },
+    categories: dates_vader ,
+    dataset: scores_vader
+}; 
 
 const Graph = () =>{
     console.log(dates)
@@ -55,6 +77,7 @@ const Graph = () =>{
         <div><ReactFusioncharts
             type="scrollline2d"
             width="100%"
+            height="500"
             dataFormat="JSON"
             dataSource={dataSource1}
         />
@@ -63,6 +86,12 @@ const Graph = () =>{
             width="100%"
             dataFormat="JSON"
             dataSource={dataSource2}
+        />
+        <ReactFusioncharts
+            type="scrollline2d"
+            width="100%"
+            dataFormat="JSON"
+            dataSource={dataSource3}
         />
         </div>
     );
