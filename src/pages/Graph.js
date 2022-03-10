@@ -74,25 +74,30 @@ const dataSource3 = {
 const Graph = () =>{
     console.log(dates)
     return (
-        <div><ReactFusioncharts
+        <div>
+        <span>&nbsp;&nbsp;</span>
+        <ReactFusioncharts
             type="scrollline2d"
             width="100%"
             height="500"
             dataFormat="JSON"
             dataSource={dataSource1}
         />
+        <span>&nbsp;&nbsp;</span>
         <ReactFusioncharts
             type="scrollline2d"
             width="100%"
             dataFormat="JSON"
             dataSource={dataSource2}
         />
+        <span>&nbsp;&nbsp;</span>
         <ReactFusioncharts
             type="scrollline2d"
             width="100%"
             dataFormat="JSON"
             dataSource={dataSource3}
         />
+        <span>&nbsp;&nbsp;</span>
         </div>
     );
 }
