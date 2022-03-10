@@ -9,6 +9,7 @@ import Abhishek from "./pages/Abhishek"
 import Shelja from "./pages/Shelja"
 import Bhanu from "./pages/Bhanu"
 
+import Graph from "./pages/Graph"
 import Home from "./pages/Home"
 import Excel from "./pages/Excel"
 import ContactForm from "./pages/Contact"
@@ -26,6 +27,7 @@ function App() {
         <Route path='/bhanu' component={Bhanu} />
         <Route path='/excel' component={Excel} />
         <Route path='/contact' component={ContactForm} />
+        <Route path='/graph' component={Graph} />
       </Switch>
     </Router>
   );

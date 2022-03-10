@@ -1,1 +1,1 @@
-
+To create data.json files simply run python csv_to_json.py
