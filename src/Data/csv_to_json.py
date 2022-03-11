@@ -10,7 +10,7 @@ def csv_to_json(csvFilePath, datesFile, scoresFile):
         for row in csvReader: 
             print(row)
             dates['category'].append({"label":f"{row['Date']}"})
-            scores['data'].append({"value":f"{str(float(row['Score'])*1000)}"})
+            scores['data'].append({"value":f"{str(float(row['Score']))}"})
             #add this python dict to json array
             # break
     dates = [dates]
@@ -23,7 +23,7 @@ def csv_to_json(csvFilePath, datesFile, scoresFile):
     with open(scoresFile, 'w', encoding='utf-8') as jsonf: 
         jsonString = json.dumps(scores, indent=4)
         jsonf.write(jsonString)
-csvFilePath = r'score_vader.csv'
-datesFile = r'Dates_vader.json'
-scoresFile = r'Scores_vader.json'
+csvFilePath = r'score_lm.csv'
+datesFile = r'Dates_lm.json'
+scoresFile = r'Scores_lm.json'
 csv_to_json(csvFilePath, datesFile, scoresFile)
