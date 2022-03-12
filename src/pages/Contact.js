@@ -1,5 +1,5 @@
 import 'react-toastify/dist/ReactToastify.min.css';
-// import { send } from 'emailjs-com';
+import { send } from 'emailjs-com';
 import {toast} from 'react-toastify';
 import { useState } from 'react';
 toast.configure()
@@ -14,24 +14,24 @@ const ContactForm = () => {
   const onSubmit = (e) => {
     e.preventDefault();
     
-    // send(
-    //   'service_gkj3x4m',
-    //   'template_iqa74r8',
-    //   toSend,
-    //   'CU8vsEr_eVByh_DNk'
-    // )
-    // .then((response) => {
-    //   console.log('SUCCESS!', response.status, response.text);
-    //   alert("SUCCESS!", response.status)
-    //   window.location.reload(false);
-    //   // toast.info('Email Sent Successfully!!')
-    // })
-    // .catch((err) => {
-    //   console.log('FAILED...', err);
-    //   alert('FAILED...', err)
-    //   window.location.reload(false);  
-    //   // toast.error('Email Sent FAILED...')  
-    // });
+    send(
+      'service_gkj3x4m',
+      'template_iqa74r8',
+      toSend,
+      'CU8vsEr_eVByh_DNk'
+    )
+    .then((response) => {
+      console.log('SUCCESS!', response.status, response.text);
+      alert("SUCCESS!", response.status)
+      window.location.reload(false);
+      // toast.info('Email Sent Successfully!!')
+    })
+    .catch((err) => {
+      console.log('FAILED...', err);
+      alert('FAILED...', err)
+      window.location.reload(false);  
+      // toast.error('Email Sent FAILED...')  
+    });
     
   };
 
