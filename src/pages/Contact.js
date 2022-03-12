@@ -1,5 +1,5 @@
 import 'react-toastify/dist/ReactToastify.min.css';
-import { send } from 'emailjs-com';
+// import { send } from 'emailjs-com';
 import {toast} from 'react-toastify';
 import { useState } from 'react';
 toast.configure()
