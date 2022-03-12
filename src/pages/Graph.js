@@ -16,8 +16,8 @@ import img6 from '../plots/vader_without_rolling.jpg';
 
 charts(FusionCharts);
 
-const dates = require('../Data/Dates_lm_vader.json')
-const scores = require('../Data/Scores_lm_vader.json')
+const dates = require('../data/Dates_lm_vader.json')
+const scores = require('../data/Scores_lm_vader.json')
 
 const dataSource1 = {
     chart: {
