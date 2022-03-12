@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/reactnavbar/static/css/main.694256d5.chunk.css",
-    "main.js": "/reactnavbar/static/js/main.57176e41.chunk.js",
-    "main.js.map": "/reactnavbar/static/js/main.57176e41.chunk.js.map",
-    "runtime-main.js": "/reactnavbar/static/js/runtime-main.ae8a227b.js",
-    "runtime-main.js.map": "/reactnavbar/static/js/runtime-main.ae8a227b.js.map",
+    "main.js": "/reactnavbar/static/js/main.53a36809.chunk.js",
+    "main.js.map": "/reactnavbar/static/js/main.53a36809.chunk.js.map",
+    "runtime-main.js": "/reactnavbar/static/js/runtime-main.dc550ec5.js",
+    "runtime-main.js.map": "/reactnavbar/static/js/runtime-main.dc550ec5.js.map",
     "static/css/2.26f1946f.chunk.css": "/reactnavbar/static/css/2.26f1946f.chunk.css",
-    "static/js/2.21aea7e0.chunk.js": "/reactnavbar/static/js/2.21aea7e0.chunk.js",
-    "static/js/2.21aea7e0.chunk.js.map": "/reactnavbar/static/js/2.21aea7e0.chunk.js.map",
-    "static/js/3.f9097d42.chunk.js": "/reactnavbar/static/js/3.f9097d42.chunk.js",
-    "static/js/3.f9097d42.chunk.js.map": "/reactnavbar/static/js/3.f9097d42.chunk.js.map",
+    "static/js/2.1b4a4d73.chunk.js": "/reactnavbar/static/js/2.1b4a4d73.chunk.js",
+    "static/js/2.1b4a4d73.chunk.js.map": "/reactnavbar/static/js/2.1b4a4d73.chunk.js.map",
+    "static/js/3.07e3a74c.chunk.js": "/reactnavbar/static/js/3.07e3a74c.chunk.js",
+    "static/js/3.07e3a74c.chunk.js.map": "/reactnavbar/static/js/3.07e3a74c.chunk.js.map",
     "index.html": "/reactnavbar/index.html",
     "static/css/2.26f1946f.chunk.css.map": "/reactnavbar/static/css/2.26f1946f.chunk.css.map",
     "static/css/main.694256d5.chunk.css.map": "/reactnavbar/static/css/main.694256d5.chunk.css.map",
-    "static/js/2.21aea7e0.chunk.js.LICENSE.txt": "/reactnavbar/static/js/2.21aea7e0.chunk.js.LICENSE.txt",
+    "static/js/2.1b4a4d73.chunk.js.LICENSE.txt": "/reactnavbar/static/js/2.1b4a4d73.chunk.js.LICENSE.txt",
     "static/media/abhishek.d56e58b9.jpg": "/reactnavbar/static/media/abhishek.d56e58b9.jpg",
     "static/media/hardik.1aa7eb8f.jpg": "/reactnavbar/static/media/hardik.1aa7eb8f.jpg",
     "static/media/home.eeaacbee.gif": "/reactnavbar/static/media/home.eeaacbee.gif",
@@ -26,10 +26,10 @@
     "static/media/vader_without_rolling.36d8834a.jpg": "/reactnavbar/static/media/vader_without_rolling.36d8834a.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.ae8a227b.js",
+    "static/js/runtime-main.dc550ec5.js",
     "static/css/2.26f1946f.chunk.css",
-    "static/js/2.21aea7e0.chunk.js",
+    "static/js/2.1b4a4d73.chunk.js",
     "static/css/main.694256d5.chunk.css",
-    "static/js/main.57176e41.chunk.js"
+    "static/js/main.53a36809.chunk.js"
   ]
 }
